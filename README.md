@@ -1,4 +1,4 @@
-# Scripts and Naming template:
+# Scripts and Naming template
 * OS - Status - Type - Description - Version
 * OS - Status - RS - Description - Version(Folder name containing both the detect and the remediation script)
     * Detect-Function

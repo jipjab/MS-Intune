@@ -18,8 +18,8 @@
     * Remediate-ClassicTeam
 
 # Usefull commands:
-%windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Install.ps1"
-%windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Unistall.ps1"
+* Install: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Install.ps1"
+* Uninstall: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Unistall.ps1"
 
 # Listes of Win32 Appsl
 * Install Bebas-Neue Fonts

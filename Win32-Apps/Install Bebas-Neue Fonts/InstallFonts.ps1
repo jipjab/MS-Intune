@@ -1,4 +1,3 @@
-
 <#
 .SYNOPSIS
     Install Fonts on Windows

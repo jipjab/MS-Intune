@@ -1,5 +1,4 @@
-Make sure you download the files below before packaging for .intune:
-
+## Make sure you download the files below before packaging for .intune:
 * Get the office Preparation Tool from https://www.microsoft.com/en-us/download/details.aspx?id=49117 and extract only the setup.exe file
 * Create a config file. You can use https://config.office.com
 * For the uninistal you can keep the same uninstall.xml

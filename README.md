@@ -14,5 +14,5 @@
 * PROD = script in production
 ## Exemple of a remediation script:
 * Windows - PRD-RS-RemoveClassicTeams-01:
-    Detect-ClassicTeams
-    Remediate-ClassicTeam
+    * Detect-ClassicTeams
+    * Remediate-ClassicTeam

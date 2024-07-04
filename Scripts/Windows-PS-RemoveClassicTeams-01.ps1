@@ -1,5 +1,4 @@
-﻿
-<#
+﻿<#
 .SYNOPSIS
     Find and remove Classic Teams on Windows 11
 

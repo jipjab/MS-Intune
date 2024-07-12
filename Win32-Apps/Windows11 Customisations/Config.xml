@@ -1,0 +1,39 @@
+<Config>
+  <RemoveApps>
+    <App>Microsoft.BingWeather</App>
+    <App>Microsoft.Getstarted</App>
+    <App>MicrosoftTeams</App>
+    <App>Microsoft.Messaging</App>
+    <App>AD2F1837.HPPresenceAware</App>
+    <App>Microsoft.Microsoft3DViewer</App>
+    <App>Microsoft.MicrosoftOfficeHub</App>
+    <App>Microsoft.MixedReality.Portal</App>
+    <App>Microsoft.OneConnect</App>
+    <App>Microsoft.Print3D</App>
+    <App>Microsoft.SkypeApp</App>
+    <App>microsoft.windowscommunicationsapps</App>
+    <App>Microsoft.WindowsFeedbackHub</App>
+    <App>Microsoft.XboxApp</App>
+    <App>Microsoft.YourPhone</App>
+    <App>Microsoft.ZuneMusic</App>
+    <App>Microsoft.ZuneVideo</App>
+    <App>Clipchamp.Clipchamp</App>
+    <App>Microsoft.BingNews</App>
+    <App>Microsoft.GamingApp</App>
+  </RemoveApps>
+  <RemoveJunks>
+    <Junk>xbox</Junk>
+  </RemoveJunks>
+  <DefaultApps>Associations.xml</DefaultApps>
+  <RegisteredOwner>Utilisateur</RegisteredOwner>
+  <RegisteredOrganization>FIPOI</RegisteredOrganization>
+  <OEMInfo>
+    <Manufacturer>HP</Manufacturer>
+    <Model>Windows PC</Model>
+    <Logo>01.kyos.logo.violet.png</Logo>
+    <SupportPhone>+41 22 734 78 88</SupportPhone>
+    <SupportHours>8h00 - 18h00</SupportHours>
+    <SupportURL>https://www.kyos.ch</SupportURL>
+  </OEMInfo>
+  
+</Config>

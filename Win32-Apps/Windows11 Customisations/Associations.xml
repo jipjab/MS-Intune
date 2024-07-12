@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+  <Association Identifier=".3g2" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".3gp" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".3gp2" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".3gpp" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".aac" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ac3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".adt" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".adts" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".amr" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".asf" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".avi" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".cab" ProgId="CABFolder" ApplicationName="Windows Explorer" />
+  <Association Identifier=".divx" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ec3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".emf" ProgId="AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj" ApplicationName="Paint" />
+  <Association Identifier=".flac" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".htm" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".html" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".inf" ProgId="AppXzwr976v2e060wada4gabrk1x69h2dbwy" ApplicationName="Bloc-notes" />
+  <Association Identifier=".ini" ProgId="AppXhk4des8gf2xat3wtyzc5q06ny78jhkqx" ApplicationName="Bloc-notes" />
+  <Association Identifier=".log" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Bloc-notes" />
+  <Association Identifier=".m1v" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m2t" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m2ts" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m2v" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m3u" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m4a" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m4r" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".m4v" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mht" ProgId="MSEdgeMHT" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".mhtml" ProgId="MSEdgeMHT" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".mka" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mkv" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mod" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mov" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".MP2" ProgId="WMP11.AssocFile.MP3" ApplicationName="Windows Media Player Legacy" />
+  <Association Identifier=".mp2v" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mp3" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mp4" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mp4v" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mpa" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".MPE" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mpeg" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mpg" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mpv2" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".mts" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".oga" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ogg" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ogm" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ogv" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".ogx" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".opus" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".pdf" ProgId="MSEdgePDF" ApplicationName="Adobe Acrobat Reader" />
+  <Association Identifier=".ps1" ProgId="AppXxf01pj590w7z9mxmyv3nx0a9ewj3e51g" ApplicationName="Bloc-notes" />
+  <Association Identifier=".psd1" ProgId="AppXc9vj55m1n3559gcjff0scsqeket80zp7" ApplicationName="Bloc-notes" />
+  <Association Identifier=".psm1" ProgId="AppX1b0e9ytcwx0wcmvkdey0h6af04t1ta3z" ApplicationName="Bloc-notes" />
+  <Association Identifier=".rle" ProgId="AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj" ApplicationName="Paint" />
+  <Association Identifier=".scp" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Bloc-notes" />
+  <Association Identifier=".svg" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".tif" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".tiff" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".tod" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".TS" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".TTS" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".txt" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Bloc-notes" />
+  <Association Identifier=".url" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".vcf" ProgId="AppXpb1vntage8kvnwpyg40aqz34j851h4p1" ApplicationName="People" />
+  <Association Identifier=".wav" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".webm" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".wm" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".wma" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".wmf" ProgId="AppXcesbfs704v2mjbts9dkr42s9vmrhxbkj" ApplicationName="Paint" />
+  <Association Identifier=".wmv" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".WPL" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".wtx" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Bloc-notes" />
+  <Association Identifier=".xht" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".xhtml" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".xvid" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier=".zip" ProgId="CompressedFolder" ApplicationName="Windows Explorer" />
+  <Association Identifier=".zpl" ProgId="AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs" ApplicationName="Lecteur multimédia" />
+  <Association Identifier="bingmaps" ProgId="AppXp9gkwccvk6fa6yyfq3tmsk8ws2nprk1p" ApplicationName="Cartes" />
+  <Association Identifier="ftp" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="http" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="https" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="microsoft-edge" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="microsoft-edge-holographic" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="ms-xbl-3d8b930f" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="mswindowsmusic" ProgId="AppXtggqqtcfspt6ks3fjzyfppwc05yxwtwy" ApplicationName="Lecteur multimédia" />
+  <Association Identifier="read" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+</DefaultAssociations>

@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Install CMTrace for reading windows logs easily
+    DElete HP Crapware
 
 .NOTES
     Version: 1.0

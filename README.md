@@ -19,7 +19,11 @@
 
 # Usefull commands:
 * Install: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Install.ps1"
+* Install: powershell.exe -noprofile -executionpolicy bypass -file "Install.ps1"
+
 * Uninstall: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Unistall.ps1"
+* Uninstall: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Unistall.ps1"
+
 
 # Listes of Win32 Appsl
 * Install Bebas-Neue Fonts

@@ -6,6 +6,7 @@ $grp2 = "rg-Bastion"
 $grp3 = "rg-Vnet1"
 $grp4 = "rg-kasm-backup"
 $grp4 = "rg-mgt"
+$grp5 = "rg-AppGateway"
 $locationWe = "westeurope"
 $locationChNorh = "switzerlandnorth"
 $locationWE = "westeurope"
@@ -18,6 +19,9 @@ $NSGName1 = "KasmNSG"
 $NSGName2 = "BastionNSG"
 $PubIP1 = "KasmPublicIP"
 $PubIP2 = "BastionPublicIP"
+$PubIP3 = "AppGatewayPubIP"
+
+AppGateway-Kasm-Pool
 
 # DEKETE RESOURCE GROUPs and its content
 Remove-AzResourceGroup -Name $grp1 -Force -AsJob
@@ -106,7 +110,7 @@ $nic = @{
     Name = "nic-1"
     ResourceGroupName = $grp1
     Location = $locationWE
-    Subnet = $vnet.Subnets[0]
+    Subnet = $vnet.Subnets[1]
 }
 $nicVM = New-AzNetworkInterface @nic
 

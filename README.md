@@ -25,6 +25,9 @@
 * Uninstall: %windir%\sysnative\windowspowershell\v1.0\powershell.exe -ExecutionPolicy Bypass -file "Unistall.ps1"
 
 
+C:\ProgramData\Microsoft\KYOS\KYOS_Win11fr-CH.ps1.tag
+
+
 # Listes of Win32 Appsl
 * Install Bebas-Neue Fonts
 * Install KONICA C450i Drivers

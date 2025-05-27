@@ -12,7 +12,7 @@ $DriverName= "KONICA MINOLTA Universal PCL v3.9.4" #This must match the exact na
 # $ScriptRoot = Split-Path -Path $MyInvocation.MyCommand.Path
 $DriverPathLocation = "C:\Program Files\KONICA MINOLTA\"
 # Full path of the INF file
-$DriverINF = "C:\Program Files\KONICA MINOLTA\Universal PCL6 x64 Multi-Lingual driver\KOAX3J__.inf"
+$DriverINF = "C:\Program Files\KONICA MINOLTA\Universal PCL6 x64 Multi-Lingual driver\KOAX1J__.inf"
 
 
 #If the file does not exist, create it.

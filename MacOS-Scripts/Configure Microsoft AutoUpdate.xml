@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcknowledgedDataCollectionPolicy</key>
+			<string>RequiredDataOnly</string>
+			<key>ChannelName</key>
+			<string>Preview</string>
+			<key>DisableInsiderCheckbox</key>
+			<false/>
+			<key>EnableCheckForUpdatesButton</key>
+			<true/>
+			<key>ExtendedLogging</key>
+			<true/>
+			<key>HowToCheck</key>
+			<string>AutomaticDownload</string>
+			<key>IgnoreUIOpenAfterInstall</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate configuration settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.autoupdate2.5A6F350A-CC2C-440B-A074-68E3F34EBAE9</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadUUID</key>
+			<string>43515E1F-AE86-46F1-9385-D7AAE8B53405</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UpdateCheckFrequency</key>
+			<integer>1440</integer>
+			<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+			<integer>5</integer>
+			<key>UpdateDeadline.FinalCountDown</key>
+			<integer>15</integer>
+			<key>UpdateDeadline.StartAutomaticUpdates</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Microsoft AutoUpdate configuration settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft AutoUpdate settings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.microsoft.autoupdate2</string>
+	<key>PayloadOrganization</key>
+	<string>Microsoft</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9E62FD54-5D03-45EA-A26E-97E54BCBD041</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

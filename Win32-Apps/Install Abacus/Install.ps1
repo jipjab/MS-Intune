@@ -7,12 +7,4 @@
     Author: Jean-Paul Mutuyimana
 #>
 
-$exeSource = "$($PSScriptRoot)\SignAgent.exe"
-$destination = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
-
-if(!(Test-Path $destination))
-{
-    mkdir $destination
-}
-
-Copy-Item -Path $exeSource -Destination $destination -Force
+msiexec /i "c:\abaclient_installer_fr.msi" installlevel=5 /qb+

@@ -1,0 +1,1 @@
+Check the local account "locadm" exists and if it is in the local administrors group

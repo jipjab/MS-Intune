@@ -7,8 +7,20 @@
     Author: Jean-Paul Mutuyimana
 #>
 
-# Path to the setup executable
-$setupPath = "$PSScriptRoot\Setup.exe"
+# Set the path to the MSI installer using $PSScriptRoot
+$msiPath = Join-Path $PSScriptRoot "Adobe CC and Acrobat.msi"
 
-# Execute the setup with the silent switch
-Start-Process -FilePath $setupPath -ArgumentList "--silent" -Wait
+# Check if the MSI file exists
+if (Test-Path $msiPath) {
+    # Install Adobe Creative Cloud silently
+    try {
+        Start-Process msiexec.exe -ArgumentList "/i `"$msiPath`" /qn" -Wait -NoNewWindow -ErrorAction Stop
+        Write-Host "Adobe Creative Cloud installed successfully."
+    }
+    catch {
+        Write-Host "Installation failed. Error: $_"
+    }
+}
+else {
+    Write-Host "MSI installer not found at: $msiPath"
+}

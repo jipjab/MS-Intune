@@ -1,8 +1,8 @@
 # Authentificate with Graph API
 
-$clientID = "9160904c-025a-4115-8372-cee760f3692e"
-$clientSecret = "cht8Q~p-Onxkgvu_LCmlJ8f6B-VekYjxJNYzda2J"
-$tenantID = "7c9bd769-5c9c-44c9-9083-717484c12b5f"
+$clientID = "<Your-Client-ID-Here>"  # Replace with your actual client ID
+$clientSecret = "<Your-Client-Secret-Here>"  # Replace with your actual client secret
+$tenantID = "<Your-Tenant-ID-Here>"  # Replace with your actual tenant ID
 
 # Assemble the token URL
 $tokenUrl = "https://login.microsoftonline.com/$tenantID/oauth2/v2.0/token"

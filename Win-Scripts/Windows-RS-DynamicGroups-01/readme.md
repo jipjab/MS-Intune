@@ -7,5 +7,5 @@ It uses an enterprise registerd App with the following API **Application permiss
 ![alt text](<CleanShot 2025-05-29 at 14.18.05@2x.png>)
 
 In the example below a **Dynymic group** is created based on the content of the *extensionAttribute 7*
-``(device.extensionAttribute7 -eq "NO Sophos EAgent")``
+``(device.extensionAttribute7 -eq "XXXX")``
 ![alt text](<CleanShot 2025-05-29 at 14.19.37@2x.png>)

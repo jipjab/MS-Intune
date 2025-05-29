@@ -15,139 +15,16 @@
 
 .INPUTS
 .OUTPUTS
-C:\ProgramData\Debloat\Debloat.log
+C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\Debloat\Debloat.logs
 .NOTES
   Version:        5.1.22
   Author:         Andrew Taylor
   Twitter:        @AndrewTaylor_2
   WWW:            andrewstaylor.com
-  Creation Date:  08/03/2022
+  Creation Date:  29/05/2025
   Purpose/Change: Initial script development
-  Change: 12/08/2022 - Added additional HP applications
-  Change 23/09/2022 - Added Clipchamp (new in W11 22H2)
-  Change 28/10/2022 - Fixed issue with Dell apps
-  Change 23/11/2022 - Added Teams Machine wide to exceptions
-  Change 27/11/2022 - Added Dell apps
-  Change 07/12/2022 - Whitelisted Dell Audio and Firmware
-  Change 19/12/2022 - Added Windows 11 start menu support
-  Change 20/12/2022 - Removed Gaming Menu from Settings
-  Change 18/01/2023 - Fixed Scheduled task error and cleared up $null posistioning
-  Change 22/01/2023 - Re-enabled Telemetry for Endpoint Analytics
-  Change 30/01/2023 - Added Microsoft Family to removal list
-  Change 31/01/2023 - Fixed Dell loop
-  Change 08/02/2023 - Fixed HP apps (thanks to http://gerryhampsoncm.blogspot.com/2023/02/remove-pre-installed-hp-software-during.html?m=1)
-  Change 08/02/2023 - Removed reg keys for Teams Chat
-  Change 14/02/2023 - Added HP Sure Apps
-  Change 07/03/2023 - Enabled Location tracking (with commenting to disable)
-  Change 08/03/2023 - Teams chat fix
-  Change 10/03/2023 - Dell array fix
-  Change 19/04/2023 - Added loop through all users for HKCU keys for post-OOBE deployments
-  Change 29/04/2023 - Removes News Feed
-  Change 26/05/2023 - Added Set-ACL
-  Change 26/05/2023 - Added multi-language support for Set-ACL commands
-  Change 30/05/2023 - Logic to check if gamepresencewriter exists before running Set-ACL to stop errors on re-run
-  Change 25/07/2023 - Added Lenovo apps (Thanks to Simon Lilly and Philip Jorgensen)
-  Change 31/07/2023 - Added LenovoAssist
-  Change 21/09/2023 - Remove Windows backup for Win10
-  Change 28/09/2023 - Enabled Diagnostic Tracking for Endpoint Analytics
-  Change 02/10/2023 - Lenovo Fix
-  Change 06/10/2023 - Teams chat fix
-  Change 09/10/2023 - Dell Command Update change
-  Change 11/10/2023 - Grab all uninstall strings and use native uninstaller instead of uninstall-package
-  Change 14/10/2023 - Updated HP Audio package name
-  Change 31/10/2023 - Added PowerAutomateDesktop and update Microsoft.Todos
-  Change 01/11/2023 - Added fix for Windows backup removing Shell Components
-  Change 06/11/2023 - Removes Windows CoPilot
-  Change 07/11/2023 - HKU fix
-  Change 13/11/2023 - Added CoPilot removal to .Default Users
-  Change 14/11/2023 - Added logic to stop errors on HP machines without HP docs installed
-  Change 14/11/2023 - Added logic to stop errors on Lenovo machines without some installers
-  Change 15/11/2023 - Code Signed for additional security
-  Change 02/12/2023 - Added extra logic before app uninstall to check if a user has logged in
-  Change 04/01/2024 - Added Dropbox and DevHome to AppX removal
-  Change 05/01/2024 - Added MSTSC to whitelist
-  Change 25/01/2024 - Added logic for LenovoNow/LenovoWelcome
-  Change 25/01/2024 - Updated Dell app list (thanks Hrvoje in comments)
-  Change 29/01/2024 - Changed /I to /X in Dell command
-  Change 30/01/2024 - Fix Lenovo Vantage version
-  Change 31/01/2024 - McAfee fix and Dell changes
-  Change 01/02/2024 - Dell fix
-  Change 01/02/2024 - Added logic around appxremoval to stop failures in logging
-  Change 05/02/2024 - Added whitelist parameters
-  Change 16/02/2024 - Added wildcard to dropbox
-  Change 23/02/2024 - Added Lenovo SmartMeetings
-  Change 06/03/2024 - Added Lenovo View and Vantage
-  Change 08/03/2024 - Added Lenovo Smart Noise Cancellation
-  Change 13/03/2024 - Added updated McAfee
-  Change 20/03/2024 - Dell app fixes
-  Change 02/04/2024 - Stopped it removing Intune Management Extension!
-  Change 03/04/2024 - Switched Win32 removal from whitelist to blacklist
-  Change 10/04/2024 - Office uninstall string fix
-  Change 11/04/2024 - Added Office support for multi-language
-  Change 17/04/2024 - HP Apps update
-  Change 19/04/2024 - HP Fix
-  Change 24/04/2024 - Switched provisionedpackage and appxpackage arround
-  Change 02/05/2024 - Fixed notlike to notin
-  Change 03/05/2024 - Change $uninstallprograms
-  Change 19/05/2024 - Disabled feeds on Win11
-  Change 21/05/2024 - Added QuickAssist to removal after security issues
-  Change 25/05/2024 - Whitelist array fix
-  Change 29/05/2025 - Uninstall fix
-  Change 31/05/2024 - Re-write for manufacturer bloat
-  Change 03/06/2024 - Added function for removing Win32 apps
-  Change 03/06/2024 - Added registry key to block "Tell me about this picture" icon
-  Change 06/06/2024 - Added keys to block Windows Recall
-  Change 07/06/2024 - New fixes for HP and McAfee (thanks to Keith Hay)
-  Change 24/06/2024 - Added Microsoft.SecHealthUI to whitelist
-  Change 26/06/2024 - Fix when run outside of ESP
-  Change 04/07/2024 - Dell fix for "|"
-  Change 08/07/2024 - Made whitelist more standard across platforms and removed bloat list to use only whitelisting
-  Change 08/07/2024 - Added start.bin
-  Change 12/07/2024 - Added logic around start.bin
-  Change 15/07/2024 - Removed Lenovo bookmarks
-  Change 18/07/2024 - Updated detection for removing Office Home
-  Change 23/07/2024 - Lenovo camera fix for E14
-  Change 25/07/2024 - Added MS Teams to whitelist
-  Change 07/08/2024 - Lenovo fix
-  Change 14/08/2024 - Whitelisted any language packs
-  Change 19/08/2024 - Added version to log for troubleshooting
-  Change 19/08/2024 - Added blacklist and whitelist for further protection
-  Change 22/08/2024 - Added Poly Lens for HP
-  Change 02/09/2024 - Added all possible languages to Office Home removal
-  Change 03/09/2024 - OOBE Logic update for Win32 app removal
-  Change 04/09/2024 - Lenovo updates
-  Change 17/09/2024 - Added HP Wolf Security
-  Change 18/09/2024 - Removed ODT for office removal to speed up script
-  Change 24/09/2024 - Fixed uninstall for HP Wolf Security
-  Change 25/09/2024 - Removed locales as Teams is now combined
-  Change 08/10/2024 - ODT Fix
-  Change 04/11/2024 - Block games in search bar
-  Change 03/12/2024 - Fix for HP AppxPackage Removal
-  Change 10/12/2024 - Added registry keys to not display screens during OOBE when using Device prep (thanks Rudy)
-  Change 07/01/2025 - Added spotlight removal keys
-  Change 10/01/2025 - Added Lenovo Now
-  Change 21/01/2025 - Edge Surf game fix
-  Change 27/01/2025 - Added Logitech Download assistant
-  Change 27/01/2025 - Converted from CRLF to LF
-  Change 06/02/2025 - Added the t back to transcrip(t)
-  Change 10/02/2025 - Fixed logic for Logitech Registry key
-  Change 07/03/2025 - commented out Logitech pending further testing
-  Change 10/03/2025 - Fix for Windows backup version number
-  Change 15/03/2025 - Added McAfee AppX package
-  Change 25/03/2025 - Fixed typo to stop the transcript
-  Change 01/04/2025 - Changed WMIC to CIM
-  Change 02/04/2025 - Removed duplicate camera
-  Change 03/04/2025 - Added Codecs to whitelist
-  Change 04/04/2025 - Removed store from blacklist
-  Change 06/04/2025 - PR Merge to remove duplicates
-  Change 15/04/2025 - PR Merge to fix reg flush/close
-  Change 16/04/2025 - PR merge with option to remove all office apps
-  Change 22/04/2025 - Added HP Performance Advisor
-  Change 24/04/2025 - Added HP Presence Video and re-shuffled Wolf to remove in corect order
-  Change 30/04/2025 - PR Merge to add time checks
-  Change 01/05/2025 - Removed StorePurchaseApp from bloat
-  Change 09/05/2025 - Added TrackPoint Quick Menu (Lenovo)
-  Change 13/05/2025 - Fixed TrackPoint (hopefully)
+  Change 29/05/2025 : Initial script development
+  Change 29/05/2025 : Added the creation of the Debloat folder if it does not exist
 N/A
 #>
 
@@ -195,7 +72,7 @@ Else {
     Write-Output "The folder $DebloatFolder was successfully created."
 }
 
-Start-Transcript -Path "C:\ProgramData\Debloat\Debloat.log"
+Start-Transcript -Path "C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\Debloat\Debloat.logs"
 
 ############################################################################################################
 #                                        Remove AppX Packages                                              #
@@ -409,9 +286,9 @@ $Bloatware = @(
 "5A894077.McAfeeSecurity"
 "5A894077.McAfeeSecurity_2.1.27.0_x64__wafk5atnkzcwy"
 #Optional: Typically not removed but you can if you need to for some reason
-#"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
-#"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
-#"*Microsoft.BingWeather*"
+"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
+"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
+"*Microsoft.BingWeather*"
 #"*Microsoft.MSPaint*"
 #"*Microsoft.MicrosoftStickyNotes*"
 #"*Microsoft.Windows.Photos*"
@@ -1207,21 +1084,21 @@ New-ItemProperty -Path $surf -Name 'AllowSurfGame' -Value 0 -PropertyType DWord
 #                                       Remove Logitech Download Assistant                                 #
 #                                                                                                          #
 ############################################################################################################
-#$logi = "SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
-#If ((Get-ItemProperty $logi).PSObject.Properties.Name -contains 'Logitech Download Assistant') {
-#    # Delete the key
-#    Remove-ItemProperty -Path $logi -Name 'Logitech Download Assistant'
-#    Write-Output 'Logitech Download Assistant Registry key removed.'
-#}
+$logi = "SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
+If ((Get-ItemProperty $logi).PSObject.Properties.Name -contains 'Logitech Download Assistant') {
+    # Delete the key
+    Remove-ItemProperty -Path $logi -Name 'Logitech Download Assistant'
+    Write-Output 'Logitech Download Assistant Registry key removed.'
+}
 
-##Remove the dll
-#$logidll = "C:\Windows\System32\LogiLDA.dll"
-#if (Test-Path $logidll) {
-#    Remove-Item $logidll -Force
-#    Write-Output "Logitech Download Assistant DLL removed."
-#} else {
-#    Write-Output "Logitech Download Assistant DLL not found."
-#}
+#Remove the dll
+$logidll = "C:\Windows\System32\LogiLDA.dll"
+if (Test-Path $logidll) {
+    Remove-Item $logidll -Force
+    Write-Output "Logitech Download Assistant DLL removed."
+} else {
+    Write-Output "Logitech Download Assistant DLL not found."
+}
 
 ############################################################################################################
 #                                       Grab all Uninstall Strings                                         #
